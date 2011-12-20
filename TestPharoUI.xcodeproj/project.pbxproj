@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1419B57F14A126BB001F5CE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1419B57E14A126BB001F5CE6 /* Cocoa.framework */; };
+		1419B58114A126BB001F5CE6 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1419B58014A126BB001F5CE6 /* MacRuby.framework */; };
+		1419B58814A126BB001F5CE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1419B58614A126BB001F5CE6 /* InfoPlist.strings */; };
+		1419B58A14A126BB001F5CE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B58914A126BB001F5CE6 /* main.m */; };
+		1419B58F14A126BB001F5CE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1419B58D14A126BB001F5CE6 /* MainMenu.xib */; };
+		1419B59214A126BB001F5CE6 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1419B59114A126BB001F5CE6 /* rb_main.rb */; };
+		1419B59414A126BB001F5CE6 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1419B59314A126BB001F5CE6 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1419B57A14A126BB001F5CE6 /* TestPharoUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPharoUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1419B57E14A126BB001F5CE6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1419B58014A126BB001F5CE6 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		1419B58514A126BB001F5CE6 /* TestPharoUI-Info.plist */ = {isa = PBXFileReference; path = "TestPharoUI-Info.plist"; sourceTree = "<group>"; };
+		1419B58714A126BB001F5CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1419B58914A126BB001F5CE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1419B58B14A126BB001F5CE6 /* TestPharoUI-Prefix.pch */ = {isa = PBXFileReference; path = "TestPharoUI-Prefix.pch"; sourceTree = "<group>"; };
+		1419B58E14A126BB001F5CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1419B59114A126BB001F5CE6 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		1419B59314A126BB001F5CE6 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1419B57714A126BB001F5CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1419B57F14A126BB001F5CE6 /* Cocoa.framework in Frameworks */,
+				1419B58114A126BB001F5CE6 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1419B56F14A126BA001F5CE6 = {
+			isa = PBXGroup;
+			children = (
+				1419B58314A126BB001F5CE6 /* TestPharoUI */,
+				1419B57D14A126BB001F5CE6 /* Frameworks */,
+				1419B57B14A126BB001F5CE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1419B57B14A126BB001F5CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1419B57A14A126BB001F5CE6 /* TestPharoUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1419B57D14A126BB001F5CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1419B57E14A126BB001F5CE6 /* Cocoa.framework */,
+				1419B58014A126BB001F5CE6 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1419B58314A126BB001F5CE6 /* TestPharoUI */ = {
+			isa = PBXGroup;
+			children = (
+				1419B59314A126BB001F5CE6 /* AppDelegate.rb */,
+				1419B58C14A126BB001F5CE6 /* Resources */,
+				1419B59014A126BB001F5CE6 /* Other Sources */,
+				1419B58414A126BB001F5CE6 /* Supporting Files */,
+			);
+			path = TestPharoUI;
+			sourceTree = "<group>";
+		};
+		1419B58414A126BB001F5CE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1419B58514A126BB001F5CE6 /* TestPharoUI-Info.plist */,
+				1419B58614A126BB001F5CE6 /* InfoPlist.strings */,
+				1419B58914A126BB001F5CE6 /* main.m */,
+				1419B58B14A126BB001F5CE6 /* TestPharoUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1419B58C14A126BB001F5CE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1419B58D14A126BB001F5CE6 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1419B59014A126BB001F5CE6 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1419B59114A126BB001F5CE6 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1419B58214A126BB001F5CE6 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 1419B59A14A126BB001F5CE6 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		1419B57914A126BB001F5CE6 /* TestPharoUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1419B59714A126BB001F5CE6 /* Build configuration list for PBXNativeTarget "TestPharoUI" */;
+			buildPhases = (
+				1419B57614A126BB001F5CE6 /* Sources */,
+				1419B57714A126BB001F5CE6 /* Frameworks */,
+				1419B57814A126BB001F5CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPharoUI;
+			productName = TestPharoUI;
+			productReference = 1419B57A14A126BB001F5CE6 /* TestPharoUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1419B57114A126BA001F5CE6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1419B57414A126BA001F5CE6 /* Build configuration list for PBXProject "TestPharoUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1419B56F14A126BA001F5CE6;
+			productRefGroup = 1419B57B14A126BB001F5CE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1419B57914A126BB001F5CE6 /* TestPharoUI */,
+				1419B58214A126BB001F5CE6 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1419B57814A126BB001F5CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1419B58814A126BB001F5CE6 /* InfoPlist.strings in Resources */,
+				1419B58F14A126BB001F5CE6 /* MainMenu.xib in Resources */,
+				1419B59214A126BB001F5CE6 /* rb_main.rb in Resources */,
+				1419B59414A126BB001F5CE6 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1419B57614A126BB001F5CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1419B58A14A126BB001F5CE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1419B58614A126BB001F5CE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1419B58714A126BB001F5CE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1419B58D14A126BB001F5CE6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1419B58E14A126BB001F5CE6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1419B59514A126BB001F5CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1419B59614A126BB001F5CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1419B59814A126BB001F5CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPharoUI/TestPharoUI-Prefix.pch";
+				INFOPLIST_FILE = "TestPharoUI/TestPharoUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1419B59914A126BB001F5CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPharoUI/TestPharoUI-Prefix.pch";
+				INFOPLIST_FILE = "TestPharoUI/TestPharoUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1419B59B14A126BB001F5CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1419B59C14A126BB001F5CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1419B57414A126BA001F5CE6 /* Build configuration list for PBXProject "TestPharoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1419B59514A126BB001F5CE6 /* Debug */,
+				1419B59614A126BB001F5CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1419B59714A126BB001F5CE6 /* Build configuration list for PBXNativeTarget "TestPharoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1419B59814A126BB001F5CE6 /* Debug */,
+				1419B59914A126BB001F5CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1419B59A14A126BB001F5CE6 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1419B59B14A126BB001F5CE6 /* Debug */,
+				1419B59C14A126BB001F5CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1419B57114A126BA001F5CE6 /* Project object */;
+}

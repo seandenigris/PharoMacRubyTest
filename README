@@ -1,0 +1,5 @@
+To see how you might use MacRuby to create a Cocoa GUI for a Pharo app:
+1. Launch the included Pharo 1.3 image with a Mac Cog VM
+2. Run the Xcode project
+
+When you press the "Show time" button in the Cocoa GUI, it should show the current time, which has been retrieved from the Pharo image via HTTP.

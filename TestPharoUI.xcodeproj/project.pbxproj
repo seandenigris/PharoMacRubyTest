@@ -15,11 +15,8 @@
 		1419B59214A126BB001F5CE6 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1419B59114A126BB001F5CE6 /* rb_main.rb */; };
 		1419B59414A126BB001F5CE6 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1419B59314A126BB001F5CE6 /* AppDelegate.rb */; };
 		141C79D814A183C500B0B292 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 141C79D714A183C500B0B292 /* README */; };
-		1481A05514A1741200ADF8BC /* Zinc-HTTP-SvenVanCaekenberghe.232.mcz in Resources */ = {isa = PBXBuildFile; fileRef = 1481A04F14A1741200ADF8BC /* Zinc-HTTP-SvenVanCaekenberghe.232.mcz */; };
-		1481A05614A1741200ADF8BC /* Zinc-Tests-SvenVanCaekenberghe.120.mcz in Resources */ = {isa = PBXBuildFile; fileRef = 1481A05014A1741200ADF8BC /* Zinc-Tests-SvenVanCaekenberghe.120.mcz */; };
 		1481A05714A1741200ADF8BC /* Pharo-1.3.changes in Resources */ = {isa = PBXBuildFile; fileRef = 1481A05114A1741200ADF8BC /* Pharo-1.3.changes */; };
 		1481A05814A1741200ADF8BC /* Pharo-1.3.image in Resources */ = {isa = PBXBuildFile; fileRef = 1481A05214A1741200ADF8BC /* Pharo-1.3.image */; };
-		1481A05914A1741200ADF8BC /* PharoDebug.log in Resources */ = {isa = PBXBuildFile; fileRef = 1481A05314A1741200ADF8BC /* PharoDebug.log */; };
 		1481A05A14A1741200ADF8BC /* PharoV10.sources in Resources */ = {isa = PBXBuildFile; fileRef = 1481A05414A1741200ADF8BC /* PharoV10.sources */; };
 /* End PBXBuildFile section */
 
@@ -35,11 +32,8 @@
 		1419B59114A126BB001F5CE6 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		1419B59314A126BB001F5CE6 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		141C79D714A183C500B0B292 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
-		1481A04F14A1741200ADF8BC /* Zinc-HTTP-SvenVanCaekenberghe.232.mcz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zinc-HTTP-SvenVanCaekenberghe.232.mcz"; sourceTree = "<group>"; };
-		1481A05014A1741200ADF8BC /* Zinc-Tests-SvenVanCaekenberghe.120.mcz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zinc-Tests-SvenVanCaekenberghe.120.mcz"; sourceTree = "<group>"; };
 		1481A05114A1741200ADF8BC /* Pharo-1.3.changes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pharo-1.3.changes"; sourceTree = "<group>"; };
 		1481A05214A1741200ADF8BC /* Pharo-1.3.image */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pharo-1.3.image"; sourceTree = "<group>"; };
-		1481A05314A1741200ADF8BC /* PharoDebug.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PharoDebug.log; sourceTree = "<group>"; };
 		1481A05414A1741200ADF8BC /* PharoV10.sources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PharoV10.sources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,22 +119,11 @@
 		1481A04D14A1741200ADF8BC /* Pharo-1.3-rc */ = {
 			isa = PBXGroup;
 			children = (
-				1481A04E14A1741200ADF8BC /* package-cache */,
 				1481A05114A1741200ADF8BC /* Pharo-1.3.changes */,
 				1481A05214A1741200ADF8BC /* Pharo-1.3.image */,
-				1481A05314A1741200ADF8BC /* PharoDebug.log */,
 				1481A05414A1741200ADF8BC /* PharoV10.sources */,
 			);
 			path = "Pharo-1.3-rc";
-			sourceTree = "<group>";
-		};
-		1481A04E14A1741200ADF8BC /* package-cache */ = {
-			isa = PBXGroup;
-			children = (
-				1481A04F14A1741200ADF8BC /* Zinc-HTTP-SvenVanCaekenberghe.232.mcz */,
-				1481A05014A1741200ADF8BC /* Zinc-Tests-SvenVanCaekenberghe.120.mcz */,
-			);
-			path = "package-cache";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,11 +197,8 @@
 				1419B58F14A126BB001F5CE6 /* MainMenu.xib in Resources */,
 				1419B59214A126BB001F5CE6 /* rb_main.rb in Resources */,
 				1419B59414A126BB001F5CE6 /* AppDelegate.rb in Resources */,
-				1481A05514A1741200ADF8BC /* Zinc-HTTP-SvenVanCaekenberghe.232.mcz in Resources */,
-				1481A05614A1741200ADF8BC /* Zinc-Tests-SvenVanCaekenberghe.120.mcz in Resources */,
 				1481A05714A1741200ADF8BC /* Pharo-1.3.changes in Resources */,
 				1481A05814A1741200ADF8BC /* Pharo-1.3.image in Resources */,
-				1481A05914A1741200ADF8BC /* PharoDebug.log in Resources */,
 				1481A05A14A1741200ADF8BC /* PharoV10.sources in Resources */,
 				141C79D814A183C500B0B292 /* README in Resources */,
 			);
